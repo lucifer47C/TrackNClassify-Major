@@ -1,0 +1,139 @@
+body {
+    font-family: Arial;
+}
+
+.login {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+.top {
+    margin-top: 35px;
+    width: 350px;
+    height: 350px;
+    border: solid;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    border-color: rgb(0, 0, 0, 0.1);
+}
+
+.logo-img {
+    margin-top: 30px;
+    width: 200px;
+    margin-bottom: 35px;
+}
+
+.userid {
+    width: 250px;
+    height: 15px;
+    font-size: 12px;
+    padding-left: 6px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0, 0.2);
+    background-color: rgb(0, 0, 0, 0.02);
+    margin-bottom: 5px;
+}
+
+.password {
+    margin-top: 5px;
+    width: 250px;
+    height: 15px;
+    font-size: 12px;
+    padding-left: 6px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0, 0.2);
+    background-color: rgb(0, 0, 0, 0.02);
+    margin-bottom: 5px;
+}
+
+#submit {
+    margin-top: 15px;
+    background-color: rgb(214, 24, 24);
+    color: white;
+    border: none;
+    width: 260px;
+    height: 40px; /* Increased height for better vertical centering */
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px; /* Adjust font size as needed */
+    text-align: center; /* Center text horizontally */
+    line-height: 40px; /* Match line-height with height for vertical centering */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.forgot-password {
+    font-family: Arial;
+    font-size: 12px;
+    color: rgb(16, 37, 104);
+    margin-top: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.middle {
+    width: 350px;
+    height: 60px;
+    margin-top: 10px;
+    border: solid;
+    border-color: red;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: rgb(0, 0, 0, 0.1);
+}
+
+.signup {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.signup-button {
+    text-decoration: none;
+    color: rgb(56, 155, 248);
+    font-weight: bold;
+}
+
+.bottom {
+    width: 350px;
+    height: 100px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 17px;
+}
+
+.get-the-app {
+    font-size: 15px;
+}
+
+.apps {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    column-gap: 8px;
+}
+
+.logo {
+    height: 90px;
+    margin-top: 50px;
+    font-size: 40px;
+    justify-content: center;
+    font-family: "Protest Riot", sans-serif;
+    color: rgb(191, 22, 22);
+}

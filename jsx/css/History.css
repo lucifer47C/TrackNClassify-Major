@@ -1,0 +1,45 @@
+/* Center align the "People currently inside" section */
+.rfid-history-count {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the filter checkbox */
+  .fNS {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-container {
+    border: 2px solid #ccc;
+    padding-bottom: 4px;
+    border-radius: 5px;
+    margin-left: 70px;
+    max-width: 300px;
+    height: 27px;
+    align-items: center;
+    
+  }
+  
+  
+  
+  .filter-section{
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+      row-gap: 20px;
+  }
+  
+  .check{
+    width: 20px;
+    margin-top: 10px;
+    margin-right: 20px;;
+  }
+  label{
+    width: 300px;
+    margin: 3px 0px 0px 3px;
+  }

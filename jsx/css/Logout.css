@@ -1,0 +1,28 @@
+.logout-confirmation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logdata input{
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.logdata button{
+    margin: 20px;
+    padding: 10px;
+    width: 150px;
+    border-radius:  20px;
+    border: 1px solid black
+}   
+
+.logdata table{
+    width: 95%;
+    border-collapse: collapse;
+    font-size: 15px;
+}

@@ -1,0 +1,20 @@
+table{
+    width: 90%;
+    border: solid;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+th{
+    background-color: rgb(156, 25, 25);
+    color: white;
+    padding: 10px;
+    border: solid black;
+
+}
+td{
+    padding: 10px;
+    border: solid black;
+    
+}
+
+

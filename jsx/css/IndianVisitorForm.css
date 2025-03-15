@@ -1,0 +1,120 @@
+/* Container for the form to center content */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/* Flex container for label and input to keep them in a single line */
+.form-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 12px;
+}
+
+/* Styling for form labels */
+label {
+    font-size: 18px;
+    margin-right: 12px;
+    color: #333;
+    font-weight: bold;
+    white-space: nowrap; /* Prevent label text from wrapping */
+    width: 150px; /* Fixed width for consistent alignment */
+}
+
+/* Styling for input fields */
+input {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    flex: 1; /* Allows input to fill the remaining space */
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+/* Styling for submit button */
+.submit {
+    background-color: #e53935;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 12px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit:hover {
+    background-color: #c62828;
+    transform: scale(1.05);
+}
+
+/* Styling for upload status messages */
+span {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+    font-size: 14px;
+}
+
+/* Styling for autocomplete container */
+.autocomplete-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 12px;
+    border: none; /* Ensure no border */
+    box-shadow: none; /* Remove any shadow */
+}
+
+/* Styling for autocomplete dropdown */
+.autocomplete-dropdown {
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    top: 100%; /* Position dropdown directly below the input field */
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    z-index: 1000;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: none; /* Ensure no border */
+    box-shadow: none; /* Remove any shadow */
+}
+
+/* Styling for autocomplete dropdown items */
+.autocomplete-dropdown li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.autocomplete-dropdown li:hover {
+    background-color: #f1f1f1;
+}
+
+/* Adjustments to handle the form layout */
+input[type="file"] {
+    margin: 12px 0;
+}
+
+/* Center header and navbar */
+.Header,
+.Navbar {
+    margin: 0 auto;
+    text-align: center;
+}

@@ -1,0 +1,51 @@
+.AddUserContainer2{
+    display: flex;
+    justify-content: center;
+}
+
+.AddUserContainer form{
+    margin: 20px;
+}
+
+
+.AddUserContainer {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    margin: 0;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background-color: #fff;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.AddUserContainer input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.AddUserContainer button {
+    background-color: rgb(185, 33, 33);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.AddUserContainer .formGroup select {
+    width: 100px;
+    padding: 5px;
+    box-sizing: border-box;
+}
