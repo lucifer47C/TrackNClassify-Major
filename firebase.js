@@ -3,7 +3,7 @@
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyClJZqBy3KW5NunjQPTRHhpPoGacc-pqT4",
+  apiKey: "Google-API-Key",
   authDomain: "tracknclassify.firebaseapp.com",
   databaseURL: "https://tracknclassify-default-rtdb.firebaseio.com",
   projectId: "tracknclassify",
@@ -26,7 +26,7 @@ import { getAnalytics } from "firebase/analytics";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAOKbUyVJLSspSNnUX1wpzho1K-OrbExJw",
+  apiKey: "Google API Key",
   authDomain: "tracify-7d9d9.firebaseapp.com",
   projectId: "tracify-7d9d9",
   storageBucket: "tracify-7d9d9.appspot.com",
