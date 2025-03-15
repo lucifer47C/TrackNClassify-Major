@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth, EmailAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyClJZqBy3KW5NunjQPTRHhpPoGacc-pqT4",
+  apiKey: "Google API Key",
   authDomain: "tracknclassify.firebaseapp.com",
   databaseURL: "https://tracknclassify-default-rtdb.firebaseio.com",
   projectId: "tracknclassify",
