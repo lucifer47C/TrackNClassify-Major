@@ -18,7 +18,7 @@ The primary goals of this project include:
 - **User-friendly Interface**: Developing a React-based interface for easy monitoring and management.
 - **Comprehensive Logging**: Maintaining detailed logs to track movements and detect potential breaches.
 
-# Features:
+### Features:
 - **Biometric Authentication**: Face recognition for precise and secure access.
 - **QR Code Scanning**: Temporary visitor access using dynamic QR codes.
 - **RFID Integration**: Efficient authentication for employees and visitors using RFID cards.
@@ -26,11 +26,11 @@ The primary goals of this project include:
 - **Centralized Logs**: Detailed entry/exit records stored in a MongoDB database.
 - **React-based Dashboard**: Intuitive interface for security personnel.
 
-# Methodology:
+## Methodology:
 - Requirement Gathering: Identify hardware (biometric sensors, RFID readers, microcontrollers) and software (MERN stack components).
 - System Design: Full-stack architecture using the MERN stack.
 
-# Implementation:
+### Implementation:
 - QR Code Scanning: Enable dynamic QR code generation and scanning.
 - RFID Integration: Link RFID tags to employee/visitor data.
 - Node-Mailer Integration: Use Node.js to manage email notifications.
@@ -39,7 +39,7 @@ The primary goals of this project include:
 - Testing and Validation: Conduct unit and integration testing.
 - Deployment and Monitoring: Deploy the system on a cloud platform for real-time synchronization.
 
-# System Requirements:
+## System Requirements:
 
 - **Software**
   - MongoDB: Database management for logs and user data.
