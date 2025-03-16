@@ -49,6 +49,8 @@ The primary goals of this project include:
   - CSS: Styling language for the user interface.
   - Arduino IDE: For programming the microcontroller.
 
+
+
 - **Hardware**
 ![setup](assets/setup.png)
 
